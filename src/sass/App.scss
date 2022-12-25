@@ -1,5 +1,13 @@
+// Variables
+
+$base-color: #c6538c;
+$base-dark: rgba($base-color, 0.88);
+$font: "Open Sans", sans-serif;
+
+//
+
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: $font;
   font-weight: 500;
   margin: 0;
   padding: 0;
@@ -10,7 +18,7 @@ body {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
-  height: 150px;
+  height: 100px;
   place-items: center;
 }
 
